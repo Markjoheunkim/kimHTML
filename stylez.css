@@ -1,0 +1,63 @@
+
+    body{
+       background-image: url(Image/Luz1.jpg);
+       background-repeat: no-repeat;
+       background-position: center;
+       background-attachment: fixed;
+       background-size: cover;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .card{
+        background-color: darkgrey;
+        width: 300px;
+        margin: 20px;
+        border-radius: 10px;
+    }
+    .card-image {
+        height: 150px;
+        margin-bottom: 15px;
+        background-size: cover;
+        border-radius: 15px 15px 0 0;
+    }
+    .luz-1 {
+        background-image:url(Image/luz\ 2.jpg) ; 
+        background-size: cover;  
+        background-position: center;
+    }
+    .luz-2 {
+        background-image: url(Image/luz\ 3.jpg);
+        background-position: center;
+    }
+    .luz-3 {
+        background-image: url(Image/luz\ 4.jpg);
+    }
+
+    .card h2{
+        padding: 10px;
+    }
+
+    .card p{
+       padding: 10px;
+    }
+    .card a{
+        background-color: black;
+        color: aliceblue;
+        padding: 15px 20px;
+        display: block;
+        text-align: center;
+        margin: 20px 50px;
+        text-decoration: none;
+    }
+
+    .card:hover {
+        background-color:rgb(62,62,62);
+        color: white;
+        cursor: pointer;
+        transform: scale(1.03);
+        transition: all 1s ease;
+    }

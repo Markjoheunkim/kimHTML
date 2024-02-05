@@ -1,0 +1,65 @@
+
+.row{
+    display: flex;
+    height: 120%;
+    align-items: center;
+   }
+
+.col{
+    flex-basis: 120%;
+  
+}
+
+h1{
+    color: black;
+    text-shadow: 0 0 5px #999;
+    font-size: 50px;
+}
+h2{
+    color:black;
+    text-shadow: 0 0 5px #999;
+    font-size: 20px;
+}
+p{
+    color:whitesmoke;
+    text-shadow: 0 0 5px #999;
+    font-size: 20px;
+    line-height: 30px;
+}
+button{
+    width: 180px;
+    color: green;
+    font-size: 12px;
+    padding: 12px 0;
+    background: burlywood;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+html, body {
+
+   height: 100%;
+   width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+
+  
+
+   background-image: url(Background.jpg);
+   background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+map{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+
+
